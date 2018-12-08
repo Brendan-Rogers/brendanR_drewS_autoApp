@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- link Vue.js -->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<title>Aston Martin Demo</title>
+	<meta charset="utf-8">
+	<!-- link the Stylesheet -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<main id="app">
+
+<h2 v-on:click="loadCars">Load the cars</h2>
+
+<p> {{ carName }} </p>
+
+<p> {{ carManufacturer }} </p>
+
+</main>
+
+<!-- link our main JS code -->
+<script src="js/main.js"></script>
+</body>
+</html>
